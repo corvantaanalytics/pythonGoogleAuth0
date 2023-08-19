@@ -10,7 +10,7 @@ def home():
 @app.route('/login/microsoft')
 def microsoft_login():
     redirect_uri = 'http://localhost:5000/login/callback'
-    client_id = 'd4fe644a-3fae-467f-aa5e-d8cc2c425ea9'
+    client_id = 'XXXX'
 
     oauth_authorize_url = (
         'https://login.microsoftonline.com/common/oauth2/v2.0/authorize'
